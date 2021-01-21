@@ -23,3 +23,4 @@ sudo xcodebuild -license accept
 source setup-macos.sh
 source setup-symlinks.sh
 source setup-apps.sh
+source setup-git.sh
