@@ -13,9 +13,7 @@ Dotfiles for my Mac.
   * iCloud: Disable all but "Notes" and "Find My Mac"
   
   * Google: Disable all but "Contacts"
-
 * Map Caps Lock to Esc
-
 - Open Finder once to create its configuration
 
 - Clone this repo and exec bootstrap.sh
@@ -48,7 +46,7 @@ Dotfiles for my Mac.
     
     - Sign in to Google
     
-    - Sort extentions
+    - Sort extensions
   
   - Mimestream
   
@@ -65,6 +63,18 @@ Dotfiles for my Mac.
   - Google Drive / Backup and Sync
   
   - Adobe Creative Cloud
+  
+  - Spotify
+    
+    - Setup Local Files
+    
+    - Set stream quality
+  
+  - Signal
+  
+  - Wire
+  
+  - WhatsApp
 
 - Configure Finder Sidebar Icons
 
