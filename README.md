@@ -1,4 +1,4 @@
-# .files
+# .dotfiles
 
 Dotfiles for my Mac.
 
@@ -23,6 +23,7 @@ Dotfiles for my Mac.
   ```
   # clone this repo & cd into it
   git clone https://github.com/hellerphilipp/dotfiles.git ~/.cfg && cd ~/.cfg
+  
   # make it executable & run it
   chmod +x bootstrap.sh && ./bootstrap.sh
   ```
