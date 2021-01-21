@@ -3,7 +3,7 @@
 	name = Philipp Heller
 	signingkey = F1CDBD9A9F0A6AEA
 [core]
-	excludesfile = /Users/pxheller/.gitignore_global
+	excludesfile = /Users/pxheller/.gitignore
 [commit]
 	gpgsign = true
 [gpg]
