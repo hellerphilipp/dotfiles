@@ -42,6 +42,10 @@ Dotfiles for my Mac.
   
   - Alfred
   
+  - iTerm2
+    
+    - Set settings to load from ./iterm2/
+  
   - Google Chrome
     
     - Sign in to Google
