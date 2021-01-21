@@ -31,5 +31,3 @@
 # coconutBattery
 ~/Library/LaunchAgents/com.coconut-flavour.coconutBattery-Menu.plist,/coconutBattery/LaunchAgent.plist
 
-# Fonts
-/Library/Fonts/Meslo\ LG\ M\ Regular\ for\ Powerline.ttf,/fonts/Meslo\ LG\ M\ Regular\ for\ Powerline.ttf
