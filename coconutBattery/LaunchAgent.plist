@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<false/>
+	<key>Label</key>
+	<string>com.coconut-flavour.coconutBattery-Menu</string>
+	<key>Program</key>
+	<string>/Applications/coconutBattery.app/Contents/Resources/coconutBattery Menu.app/Contents/MacOS/coconutBattery Menu</string>
+	<key>RunAtLoad</key>
+	<true/>
+</dict>
+</plist>
