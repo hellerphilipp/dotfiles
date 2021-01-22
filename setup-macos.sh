@@ -54,7 +54,7 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool true
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool true
 
 # Disable auto expansion shortcuts
-defaults write NSUserDictionaryReplacementItems -array
+defaults write NSGlobalDomain NSUserDictionaryReplacementItems -array
 
 # Disable auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
