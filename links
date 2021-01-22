@@ -29,3 +29,6 @@
 # coconutBattery
 ~/Library/LaunchAgents/com.coconut-flavour.coconutBattery-Menu.plist,/coconutBattery/LaunchAgent.plist
 
+# iTerm2
+~/Library/Application\Support/iTerm2/DynamicProfiles/fix-iterm2-keys-profile.json,/iterm2/dynamicProfiles/fix-iterm2-keys-profile.json
+
