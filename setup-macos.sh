@@ -11,9 +11,6 @@ osascript -e 'tell application "System Preferences" to quit'
 # enable touch id for sudo
 sudo sed -i.bak '2i\'$'\n''auth'$'\t'$'sufficient'$'\t'$'pam_tid.so'$'\n' /etc/pam.d/sudo
 
-# enable dark mode
-defaults write NSGlobalDomain AppleInterfaceStyle -string "Dark"
-
 # Set sidebar icon size to small
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
 
