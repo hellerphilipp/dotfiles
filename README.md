@@ -20,23 +20,23 @@ Dotfiles for my Mac.
   
   ```
   # clone this repo & cd into it
-  git clone https://github.com/hellerphilipp/dotfiles.git ~/.cfg && cd ~/.cfg
+  git clone https://github.com/hellerphilipp/dotfiles.git ~/.dotfiles && cd ~/.dotfiles
   
   # make it executable & run it
-  chmod +x bootstrap.sh && ./bootstrap.sh
+  chmod +x *.sh && ./setup.sh
   ```
+
+- Install Vim plugins: `:PlugInstall`
+
+- Restart the system
+
+- Configure display scaling
 
 - Enable Finder integrations under System Preferences > Extensions
 
 - Disable Guest User under System Preferences > Users & Groups
 
-- Clean-up Git Config File of old keys
-
 - [Generate a new SSH key and add it to the ssh-agent](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-
-- Associate the new key [with GitHub](https://github.com/settings/keys)
-
-- Install Vim plugins: `:PlugInstall`
 
 - Setup applications
   
@@ -49,8 +49,6 @@ Dotfiles for my Mac.
   - Google Chrome
     
     - Sign in to Google
-    
-    - Sort extensions
   
   - Mimestream
   
@@ -80,9 +78,33 @@ Dotfiles for my Mac.
   
   - WhatsApp
 
-- Configure Finder Sidebar Icons
+- Manually install [Mimestream](https://mimestream.com/download)
 
-- Configure Menubar Icons
+- Configure Finder sidebar icons
+
+- Configure Menubar icons in Bartender
+
+- Associate the new SSH and GPG keys [GitHub](https://github.com/settings/keys) 
+  
+  * Copy SSH key
+    
+    ```bash
+    # Copy the public key from the file
+    pbcopy < ~/.ssh/id_ed25519.pub
+    ```
+  - Copy GPG key
+    
+    ```shell
+    # List GPG keys
+    gpg --list-secret-keys --keyid-format LONG
+    
+    # Make Git sign commits by default
+    git config --global user.signingkey <key-ID>
+    git config --global commit.gpgsign true
+    
+    # Copy key to clipboard
+    gpg --armor --export <key-ID> | pbcopy
+    ```
 
 ## Keep the repo up to date
 
