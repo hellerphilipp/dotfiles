@@ -21,7 +21,7 @@
 ~/.zshrc, /zsh/zshrc
 
 # Git
-~/.git/.gitignore, /git/gitignore
+~/.gitignore, /git/gitignore
 
 # Vim
 ~/.vim, /vim
