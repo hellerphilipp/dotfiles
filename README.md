@@ -16,6 +16,8 @@ Dotfiles for my Mac.
 * Map Caps Lock to Esc
 - Open Finder once to create its configuration
 
+- On 10.13+: Open Mac App Store to Sign-In (Due to a bug in `mas`)
+
 - Clone this repo and exec bootstrap.sh
   
   ```
