@@ -21,12 +21,10 @@
 ~/.zshrc, /zsh/zshrc
 
 # Git
-~/.gitconfig, /git/gitconfig
 ~/.git/.gitignore, /git/gitignore
 
 # Vim
-~/.vim, /vim/local
-~/.vimrc, /vim/local/vimrc
+~/.vim, /vim
 
 # coconutBattery
 ~/Library/LaunchAgents/com.coconut-flavour.coconutBattery-Menu.plist,/coconutBattery/LaunchAgent.plist
