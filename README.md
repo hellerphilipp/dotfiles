@@ -38,8 +38,6 @@ Dotfiles for my Mac.
 
 - Disable Guest User under System Preferences > Users & Groups
 
-- [Generate a new SSH key and add it to the ssh-agent](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-
 - Setup applications
   
   - Alfred
@@ -93,27 +91,33 @@ Dotfiles for my Mac.
 
 - Configure Menubar icons in Bartender
 
-- Associate the new SSH and GPG keys [GitHub](https://github.com/settings/keys) 
+- Configure keys
   
-  * Copy SSH key
+  - [Generate a new SSH key and add it to the ssh-agent](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+  
+  - [Generate a new GPG key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-gpg-key)
+  
+  - Associate the new SSH and GPG keys [GitHub](https://github.com/settings/keys) 
     
-    ```bash
-    # Copy the public key from the file
-    pbcopy < ~/.ssh/id_ed25519.pub
-    ```
-  - Copy GPG key
-    
-    ```shell
-    # List GPG keys
-    gpg --list-secret-keys --keyid-format LONG
-    
-    # Make Git sign commits by default
-    git config --global user.signingkey <key-ID>
-    git config --global commit.gpgsign true
-    
-    # Copy key to clipboard
-    gpg --armor --export <key-ID> | pbcopy
-    ```
+    * Copy SSH key
+      
+      ```bash
+      # Copy the public key from the file
+      pbcopy < ~/.ssh/id_ed25519.pub
+      ```
+    - Copy GPG key
+      
+      ```shell
+      # List GPG keys
+      gpg --list-secret-keys --keyid-format LONG
+      
+      # Make Git sign commits by default
+      git config --global user.signingkey <key-ID>
+      git config --global commit.gpgsign true
+      
+      # Copy key to clipboard
+      gpg --armor --export <key-ID> | pbcopy
+      ```
 
 ## Keep the repo up to date
 
