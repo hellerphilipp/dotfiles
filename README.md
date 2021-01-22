@@ -18,7 +18,7 @@ Dotfiles for my Mac.
 
 - On 10.13+: Open Mac App Store to Sign-In (Due to a bug in `mas`)
 
-- Clone this repo and exec bootstrap.sh
+- Clone this repo and exec setup
   
   ```
   # clone this repo & cd into it
