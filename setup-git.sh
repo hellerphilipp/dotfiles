@@ -9,6 +9,9 @@ git config --global alias.ci commit
 git config --global alias.co checkout
 git config --global alias.ls ls-files
 git config --global alias.st status
+git config --global alias.unstage 'reset HEAD --'
+git config --global alias.lon 'log --oneline --numstat'
+git config --global alias.lg 'log --oneline --graph'
 
 git config --global color.ui true
 
