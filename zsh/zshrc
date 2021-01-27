@@ -34,4 +34,14 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias q=exit
+
+alias mkdir='mkdir -p'
+
+alias path='echo $PATH | tr ":" "\n" | sort'
+
+alias ..='cd ..'
+alias back='cd -'
+
+alias ping='ping -c 5'
 
