@@ -31,6 +31,8 @@ set foldlevelstart=0
 nnoremap <space> za
 set foldmethod=indent
 
+set cursorline
+
 call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
