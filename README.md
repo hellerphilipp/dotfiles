@@ -42,17 +42,6 @@ Dotfiles for my Mac.
   
   - Alfred
   
-  - iTerm2
-    
-    - Open iTerm2 Preferences -> Profiles
-    - Select the dynamic profile "MacOS Keys" from the list
-    - Click `Other Actions` -> `Bulk Copy from Selected Profile...`
-    - Check `Keys` checkbox
-    - Select your profile
-    - Hit Copy button
-    - Enjoy a much better life with your keyboard
-    - ([source](https://github.com/GabLeRoux/iterm2-macos-dynamic-profile))
-  
   - Google Chrome
     
     - Sign in to Google
