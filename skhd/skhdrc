@@ -158,7 +158,7 @@ alt - e : yabai -m window --toggle split
 alt - t : yabai -m window --toggle float
 
 # toggle sticky
-alt - s : yabai -m window --toggle sticky
+alt - a : yabai -m window --toggle sticky
 
 # change layout of space
 ctrl + alt - a : yabai -m space --layout bsp
