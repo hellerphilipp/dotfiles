@@ -32,6 +32,7 @@ source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Plugin configuration
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#606060"
+ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=20
 
 # Personal functions
 # Extract (almost) any archive format
