@@ -29,9 +29,3 @@
 # coconutBattery
 ~/Library/LaunchAgents/com.coconut-flavour.coconutBattery-Menu.plist,/coconutBattery/LaunchAgent.plist
 
-# yabai
-~/.yabairc, /yabai/yabairc
-
-# skhd
-~/.skhdrc, /skhd/skhdrc
-
