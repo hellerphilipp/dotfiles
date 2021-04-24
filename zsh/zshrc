@@ -28,6 +28,10 @@ source $ZSH/oh-my-zsh.sh
 
 # Other plugins that cannot be added the usual way
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# Plugin configuration
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#606060"
 
 # Personal functions
 # Extract (almost) any archive format
