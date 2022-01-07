@@ -207,7 +207,7 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 defaults write com.apple.dock tilesize -int 20
 
 # Move Dock to the left
-defaults write com.apple.dock orientation -string "left"
+defaults write com.apple.dock orientation -string "right"
 
 # Minimize windows into their application’s icon
 defaults write com.apple.dock minimize-to-application -bool true
