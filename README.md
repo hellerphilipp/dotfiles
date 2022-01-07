@@ -47,6 +47,11 @@ Dotfiles for my Mac.
      - Restore Profile
 
   - Mimestream
+
+  - Scroll reverser
+    
+     - App -> Start at login
+     - Scrolling -> only reverse mouse
   
   - CoconutBattery
   
