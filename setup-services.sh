@@ -1,2 +1,0 @@
-# start yabai and skhd
-

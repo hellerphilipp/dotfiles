@@ -8,9 +8,6 @@ osascript -e 'tell application "System Preferences" to quit'
 # General UI/UX                                                               #
 ###############################################################################
 
-# enable touch id for sudo
-sudo sed -i.bak '2i\'$'\n''auth'$'\t'$'sufficient'$'\t'$'pam_tid.so'$'\n' /etc/pam.d/sudo
-
 # Set sidebar icon size to small
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
 
@@ -53,9 +50,6 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool true
 
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool true
 
-# Disable auto expansion shortcuts
-defaults write NSGlobalDomain NSUserDictionaryReplacementItems -array
-
 # Disable auto-correct
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
@@ -76,11 +70,6 @@ defaults write NSGlobalDomain com.apple.sound.beep.volume -float 0
 
 # disable screen saver
 defaults -currentHost write com.apple.screensaver idleTime 0
-
-# configure touchbar
-defaults write com.apple.controlstrip MiniCustomized '("com.apple.system.brightness", "com.apple.system.volume", "com.apple.system.mute")'
-
-defaults write com.apple.controlstrip FullCustomized '("com.apple.system.group.brightness", "com.apple.system.mission-control", "com.apple.system.launchpad", "com.apple.system.group.keyboard-brightness", "com.apple.system.group.media", "com.apple.system.group.volume")'
 
 # set clock to show date, day and seconds
 defaults write com.apple.menuextra.clock DateFormat -string "EEE d. MMM  HH:mm:ss"
@@ -112,7 +101,6 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 25
 
 # Set language and text formats
 defaults write NSGlobalDomain AppleLanguages -array "en_US"
-defaults write NSGlobalDomain AppleLocale -string "en_DE"
 defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
 defaults write NSGlobalDomain AppleMetricUnits -bool true
 defaults write NSGlobalDomain AppleTemperatureUnit -string "Celsius"
@@ -121,7 +109,7 @@ defaults write NSGlobalDomain AppleTemperatureUnit -string "Celsius"
 sudo defaults write /Library/Preferences/com.apple.loginwindow showInputMenu -bool true
 
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
-sudo systemsetup -settimezone "Europe/Berlin" > /dev/null
+sudo systemsetup -settimezone "Europe/Zurich" > /dev/null
 
 # Stop iTunes from responding to the keyboard media keys
 launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
@@ -161,9 +149,6 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 # Finder: show path bar
 defaults write com.apple.finder ShowPathbar -bool true
-
-# Display full POSIX path as Finder window title
-defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 
 # Keep folders on top when sorting by name
 defaults write com.apple.finder _FXSortFoldersFirst -bool true
@@ -257,14 +242,6 @@ defaults write com.apple.dock wvous-tr-corner -int 0
 defaults write com.apple.dock wvous-tr-modifier -int 0
 defaults write com.apple.dock wvous-bl-corner -int 0
 defaults write com.apple.dock wvous-bl-modifier -int 0
-
-###############################################################################
-# Spotlight                                                                   #
-###############################################################################
-
-# Disable Spotlight keyboard shortcut to free it up for alfred
-/usr/libexec/PlistBuddy ~/Library/Preferences/com.apple.symbolichotkeys.plist -c \
-  "Set AppleSymbolicHotKeys:64:enabled false"
 
 ###############################################################################
 # Time Machine                                                                #

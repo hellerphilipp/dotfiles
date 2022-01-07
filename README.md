@@ -42,23 +42,23 @@ Dotfiles for my Mac.
   
   - Alfred
   
-  - Google Chrome
+  - Google Chromium
     
-    - Sign in to Google
-  
+     - Restore Profile
+
   - Mimestream
   
   - CoconutBattery
   
   - Rocket
   
-  - Magnet
+  - Rectangle
   
-  - TermHere
+  - OpenInTerminal
   
-  - Bartender
+  - Hiddenbar
   
-  - Google Drive / Backup and Sync
+  - Google Drive 
   
   - Adobe Creative Cloud
   
@@ -70,15 +70,9 @@ Dotfiles for my Mac.
   
   - Signal
   
-  - Wire
-  
   - WhatsApp
 
-- Manually install [Mimestream](https://mimestream.com/download)
-
 - Configure Finder sidebar icons
-
-- Configure Menubar icons in Bartender
 
 - Configure keys
   
