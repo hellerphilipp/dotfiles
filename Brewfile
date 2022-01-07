@@ -33,7 +33,5 @@ cask "veracrypt"
 cask "visual-studio-code"
 mas "Keynote", id: 409183694
 mas "Pages", id: 409201541
-mas "Tag Editor Free", id: 984278082
 mas "The Unarchiver", id: 425424353
-mas "WhatsApp", id: 1147396723
 mas "Xcode", id: 497799835
