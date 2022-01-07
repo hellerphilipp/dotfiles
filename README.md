@@ -62,6 +62,8 @@ Dotfiles for my Mac.
   
   - Adobe Creative Cloud
   
+  - MonitorControl
+
   - Spotify
     
     - Setup Local Files
@@ -70,8 +72,6 @@ Dotfiles for my Mac.
   
   - Signal
   
-  - WhatsApp
-
 - Configure Finder sidebar icons
 
 - Configure keys
