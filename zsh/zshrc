@@ -8,6 +8,9 @@ export ZSH="/Users/pxheller/.oh-my-zsh"
 export LC_ALL=en_US.UTF-8
 export GPG_TTY=$(tty)
 
+# Secretive - Mac Secure enclave key management
+export SSH_AUTH_SOCK=/Users/pxheller/Library/Containers/com.maxgoedjen.Secretive.SecretAgent/Data/socket.ssh
+
 # Workaround for folder permission issue
 ZSH_DISABLE_COMPFIX=true
 
