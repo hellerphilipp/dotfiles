@@ -45,6 +45,46 @@ Dotfiles for my Mac.
   - Google Chromium
     
      - Restore Profile
+     
+     - Install extensions
+
+	- Chromium Web Store
+	
+	- Chromium update notifications
+
+	- Bitwarden
+
+	- uBlock Origin
+
+	- LocalCDN
+
+	- ClearURLs
+
+	- Return YouTube Dislike
+
+	- Binnen-I be gone
+
+	- DJSON
+
+	- Instapaper
+
+	- Video Speed Manager
+
+	- Sponsorblock
+
+	- WebRTC Leak Prevent
+
+	- Terms of Service; Didn't read
+
+	- Modern Design for Wikipedia
+
+	- Picture-in-Picture extension
+
+	- Stream Recorder (HLSloader)
+
+	- Note anywhere
+
+	- Super simple highlighter
 
   - Mimestream
 
