@@ -80,6 +80,8 @@ Dotfiles for my Mac.
 
 	- Picture-in-Picture extension
 
+	- Undisposition
+
 	- Stream Recorder (HLSloader)
 
 	- Note anywhere
