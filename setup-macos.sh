@@ -74,6 +74,10 @@ defaults -currentHost write com.apple.screensaver idleTime 0
 # set clock to show date, day and seconds
 defaults write com.apple.menuextra.clock DateFormat -string "EEE d. MMM  HH:mm:ss"
 
+# Set icon spacing to narrow 6px
+defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 6
+defaults -currentHost write -globalDomain NSStatusItemSpacing -int 6
+
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
 ###############################################################################
