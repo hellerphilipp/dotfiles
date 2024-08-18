@@ -42,54 +42,6 @@ Dotfiles for my Mac.
   
   - Alfred
   
-  - Google Chromium
-    
-     - Restore Profile
-     
-     - Install extensions
-
-	- Chromium Web Store
-	
-	- Chromium update notifications
-
-	- Bitwarden
-
-	- uBlock Origin
-
-	- LocalCDN
-
-	- ClearURLs
-
-	- Return YouTube Dislike
-
-	- Binnen-I be gone
-
-	- DJSON
-
-	- Instapaper
-
-	- Video Speed Manager
-
-	- Sponsorblock
-
-	- WebRTC Leak Prevent
-
-	- Terms of Service; Didn't read
-
-	- Modern Design for Wikipedia
-
-	- Picture-in-Picture extension
-
-	- Undisposition
-
-	- Stream Recorder (HLSloader)
-
-	- Note anywhere
-
-	- Super simple highlighter
-
-  - Mimestream
-
   - Scroll reverser
     
      - App -> Start at login
@@ -103,11 +55,7 @@ Dotfiles for my Mac.
   
   - OpenInTerminal
   
-  - Hiddenbar
-  
-  - Google Drive 
-  
-  - Adobe Creative Cloud
+  - Ice
   
   - MonitorControl
 
@@ -117,11 +65,11 @@ Dotfiles for my Mac.
     
     - Set stream quality
   
-  - Signal
-  
 - Configure Finder sidebar icons
 
 - Configure keys
+
+ - SSH keys with [secretive](https://github.com/maxgoedjen/secretive)
   
   - [Generate a new SSH key and add it to the ssh-agent](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
   
