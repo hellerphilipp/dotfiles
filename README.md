@@ -30,6 +30,8 @@ Dotfiles for my Mac.
 
 - Install Vim plugins: `:PlugInstall`
 
+- Install [boring.notch](https://github.com/TheBoredTeam/boring.notch)
+
 - Restart the system
 
 - Configure display scaling
