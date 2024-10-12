@@ -73,6 +73,7 @@ extract() {
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias q=exit
 
+alias ll='ls -lah'
 alias mkdir='mkdir -p'
 
 alias path='echo $PATH | tr ":" "\n" | sort'
