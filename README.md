@@ -16,6 +16,8 @@ Dotfiles for my Mac.
 * Map Caps Lock to Esc
 - Open Finder once to create its configuration
 
+- https://gist.github.com/devnoname120/4767a0aa18879217170fd0c68809fc24
+
 - On 10.13+: Open Mac App Store to Sign-In (Due to a bug in `mas`)
 
 - Clone this repo and exec setup
